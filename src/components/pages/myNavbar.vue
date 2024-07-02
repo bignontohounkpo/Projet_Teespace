@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex justify-content-between barre container-fluid">
+  <div class="d-flex justify-content-between barre container-fluid d-lg-flex d-none">
     <div class="justify-content-center m-auto fs-6">
       Free shipping on all U.S. orders $50+
     </div>

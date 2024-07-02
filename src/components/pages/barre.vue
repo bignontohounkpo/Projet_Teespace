@@ -2,15 +2,15 @@
     <div class="bg-light">
     <div class="container">
         <div class="row pb-4 pt-4 align-content-center  mx-4 ">
-            <div class="col-lg-3 fs-5 justify-content-center">
+            <div class="col-lg-3 fs-6 justify-content-center">
                 <img src="../../assets/image/logo-black.png copy.svg" alt="" class="img-fluid ">
                 <p>hello@teespace.io</p>
                 <p class="fw-bold">+02 036 038 3996</p>
                 <p class="">3665 Paseo Place, Suite 0960 <br>
                     San Diego</p>
             </div>
-            <div class="col-lg-3  fs-5 justify-content-center">
-                <p class="fw-bold fs-4  ">Information</p>
+            <div class="col-lg-3  fs-6 justify-content-center">
+                <p class="fw-bold fs-6  ">Information</p>
                 <p class="fw-light ">About us</p>
                 <p class="fw-light ">Our Blog</p>
                 <p class="fw-light ">Start a Return</p>
@@ -19,8 +19,8 @@
                
             </div>
 
-            <div class="col-lg-3  fs-5 justify-content-center">
-                <p class="fw-bold  fs-4  ">Useful links</p>
+            <div class="col-lg-3  fs-6 justify-content-center">
+                <p class="fw-bold  fs-6  ">Useful links</p>
                 <p class="fw-light ">My Account</p>
                 <p class="fw-light ">Print Provider</p>
                 <p class="fw-light ">Become a Partner</p>
@@ -30,8 +30,8 @@
             </div>
 
             <div class="col-lg-3 justify-content-center ">
-                <p class="fw-bold  fs-4  ">Newsletter</p>
-                <p class="fw-light fs-5">Get the latest news, events & more delivered <br>
+                <p class="fw-bold  fs-6  ">Newsletter</p>
+                <p class="fw-light fs-6">Get the latest news, events & more delivered <br>
                     to your inbox.
                 </p>
               <p class="m-0"> <button class="btn  btn-lg fs-5 rounded-2 w-100  " style="background: #FFFFFF;
@@ -46,7 +46,7 @@
      <div class="row text-center justify-content-between  ">
         <div class="col-lg-4  col-md-6 col-sm-6 col-6 justify-content-center ">
                 <div class="d-flex justify-content-between  pt-4 ">
-            <p class="">
+            <p class="fs-6">
                  &copy;  2022 TeeSpace. All rights reserved.
                 </p>
              </div>

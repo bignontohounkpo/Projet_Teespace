@@ -1,23 +1,18 @@
-<script>
-// import Services from'./components/pages/Services.vue';
- import ServiceDetails from'./components/pages/ServiceDetails.vue';
- //import OurTimes from'./components/pages/OurTimes.vue';
+<template>
+  <Barres/>
+</template>
 
+<script>
+import Barres from "./components/pages/Barres.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    ServiceDetails,
-   // OurTimes,
-    //Services
+    Barres,
   },
-}
+};
 </script>
 
-<template>
-   <ServiceDetails/> 
 
-  <!-- <OurTimes/>   -->
-</template>
 
 
 <style scoped>
