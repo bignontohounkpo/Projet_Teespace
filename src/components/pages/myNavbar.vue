@@ -15,27 +15,62 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav" style="flex-grow: 1">
         <ul class="navbar-nav fs-6 fw-bold">
-          <li class="nav-item">
-            <a class="nav-link text-success" href="{{ url_for('home') }}">Home <img src="../../assets/image/flechenav.svg"
-                alt="" />
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-success" href="#" id="navbarPagesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Home
             </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarPagesDropdown">
+              <li><router-link class="dropdown-item" to="/pricing">Pricing</router-link></li>
+              <li><router-link class="dropdown-item" to="/faq">FAQ</router-link></li>
+              <li><router-link class="dropdown-item" to="/contact">Contact Us</router-link></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('about') }}">TeeSpace <img src="../../assets/image/flechenav.svg"
-                alt="" />
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarPagesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Teespace
             </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarPagesDropdown">
+              <li><router-link class="dropdown-item" to="/pricing">Pricing</router-link></li>
+              <li><router-link class="dropdown-item" to="/faq">FAQ</router-link></li>
+              <li><router-link class="dropdown-item" to="/contact">Contact Us</router-link></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('contact') }}">Shop <img src="../../assets/image/flechenav.svg" alt="" />
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarPagesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Shops
             </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarPagesDropdown">
+              <li><router-link class="dropdown-item" to="/pricing">Pricing</router-link></li>
+              <li><router-link class="dropdown-item" to="/faq">FAQ</router-link></li>
+              <li><router-link class="dropdown-item" to="/contact">Contact Us</router-link></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('contact') }}">Blog <img src="../../assets/image/flechenav.svg"
-                alt="" /></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarPagesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Blogs
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarPagesDropdown">
+              <li><router-link class="dropdown-item" to="/pricing">Pricing</router-link></li>
+              <li><router-link class="dropdown-item" to="/faq">FAQ</router-link></li>
+              <li><router-link class="dropdown-item" to="/contact">Contact Us</router-link></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('contact') }}">Pages <img src="../../assets/image/flechenav.svg"
-                alt="" /></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarPagesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarPagesDropdown">
+              <li><router-link class="dropdown-item" to="/pricing">Pricing</router-link></li>
+              <li><router-link class="dropdown-item" to="/faq">FAQ</router-link></li>
+              <li><router-link class="dropdown-item" to="/contact">Contact Us</router-link></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -64,4 +99,4 @@ export default {};
 .barre {
   background: #f4eefa;
 }
-</style>
+</style> 
