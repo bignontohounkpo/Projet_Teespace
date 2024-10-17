@@ -80,7 +80,7 @@
 
   <div class="container">
     <div class="row mt-5 justify-content-center">
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4">
         <div class="d-flex gap-3">
           <img
             src="../../assets/image/Group.svg"
@@ -98,7 +98,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4 col-sm-4">
         <div class="d-flex gap-3">
           <img
             src="../../assets/image/group1.svg"
@@ -116,7 +116,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4 col-sm-4">
         <div class="d-flex gap-3">
           <img
             src="../../assets/image/Clip path group.svg"
@@ -137,9 +137,8 @@
   </div>
   <!-- les images bizarres        -->
   <div class="container pt-4">
-    <div class="row justify-content-center">
-      <div class="col-lg-6">
-        <p class="text-center p1 d-inline p-2 rounded-5 align-content-center">
+    <div class="text-center pt-3">
+      <p class="text-center p1 d-inline p-2 rounded-5 align-content-center ">
           Design your own
         </p>
         <p class="fw-bold fs-3 pt-3">T-shirt printing made easy.</p>
@@ -147,8 +146,12 @@
           You’ve got the idea, we’ve got the tools—design your custom <br />
           clothing with our free design assets:
         </p>
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6  ">
+      
+        <div class="row justify-content-center justify-content-between">
+          <div class="col-lg-6 col-md-6 ">
             <div class="d-flex gap-3">
               <img src="../../assets/image/span.svg" alt="" class="img-fluid" />
               <p class="fw-bold pt-4">Font Library</p>
@@ -158,21 +161,24 @@
               nec fringi det, consec
             </p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6  col-md-6 ">
             <div class="d-flex gap-3">
               <img
                 src="../../assets/image/span1.svg"
                 alt=""
                 class="img-fluid"
               />
+              
               <p class="fw-bold pt-4">Quick Designs</p>
             </div>
+            <div class="">
             <p class="text-secondary">
               Lorem ipsum det, consec tetur duis <br />
               nec fringi det, consec
             </p>
           </div>
-          <div class="col-lg-6">
+          </div>
+          <div class="col-lg-6 col-md-6 ">
             <div class="d-flex gap-3">
               <img
                 src="../../assets/image/span2.svg"
@@ -186,7 +192,7 @@
               nec fringi det, consec
             </p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6 ">
             <div class="d-flex gap-3">
               <img
                 src="../../assets/image/span3.svg"
@@ -202,8 +208,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        <img src="../../assets/image/span5.svg" alt="" class="img-fluid w-75" />
+      <div class="col-lg-6  text-center">
+        <img src="../../assets/image/span5.svg" alt="" style="width: 68%;" />
       </div>
     </div>
   </div>

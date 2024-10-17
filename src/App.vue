@@ -1,19 +1,16 @@
 <template>
-  <Barres/>
+  <ServiceDetails/>
 </template>
 
 <script>
-import Barres from "./components/pages/Barres.vue";
+import ServiceDetails from "./components/pages/ServiceDetails.vue";
 export default {
   name: "App",
   components: {
-    Barres,
+    ServiceDetails,
   },
 };
 </script>
-
-
-
 
 <style scoped>
 </style>
